@@ -1,0 +1,27 @@
+Spingying
+=========
+
+简介
+======
+
+此插件用于ActiveRecord保存汉字自动生成首字母拼音.比如"蜂鸟"可转成"fn",以便于汉字按键盘字母快速搜索排序。目前仅支持Ruby 1。9。2
+
+用法
+======
+
+假设你有一个User modle，用户名字段是"name"，想对它做拼音转化
+
+1：首先你需要有新建一个string类型的字段来保存生成的首字母，此字段名称默认是spingying，你可自行指定
+
+2：在此model添加插件引用 
+acts_as_spingying :pingyingable => :name,:spingying => :spingying
+
+注：如果有不明白的可以看 test/acts_as_spingying_test.rb 的测试用例
+
+作者
+======
+
+stephen wear636359220@gmail.com
+
+
+Copyright (c) 2011 [name of plugin creator], released under the MIT license
