@@ -1,5 +1,6 @@
 # Spingying - 获得汉字拼音首字母
 
+[![Build Status](https://travis-ci.org/wear/spinying.png?branch=master)](https://travis-ci.org/wear/spinying)
 
 ## 简介
 
