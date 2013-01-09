@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 #Unicode中汉字开始点  
 ZHUNICODESTART=19968;  
 #Unicode中汉字的结束点  

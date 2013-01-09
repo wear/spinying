@@ -1,3 +1,0 @@
-mysql:
-  :adapter: mysql
-  :database: spingying_test
