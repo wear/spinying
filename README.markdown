@@ -1,4 +1,4 @@
-# Spingying - 获得汉字拼音首字母
+# Spinying - 获得汉字拼音首字母
 
 [![Build Status](https://travis-ci.org/wear/spinying.png?branch=master)](https://travis-ci.org/wear/spinying)
 
@@ -6,8 +6,8 @@
 
 汉字生成拼音首字母.比如"蜂鸟"可转成"fn"，简单，方便，不依赖任何外部服务！
 
-
 ## 用法
+
 加入gemfile
 
 `
